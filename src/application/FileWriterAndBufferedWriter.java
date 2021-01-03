@@ -9,7 +9,7 @@ import java.io.IOException;
 public class FileWriterAndBufferedWriter {
   public static void main(String[] args) {
     String[] lines = new String[] { "Good morning", "Good afternoon", "Good night" };//feito um vetor de String
-    String path = "C:\\Users\\Karen_Iago\\Documents\\Iago\\Capacitação\\Java\\course\\nivel-intermediario-java\\out.txt";
+    String path = "C:\\Users\\Karen_Iago\\Documents\\Iago\\Capacitacao\\Java\\course\\nivel-intermediario-java\\out.txt";
     try (BufferedWriter bw = new BufferedWriter(new FileWriter(path))) {
       /* Se tivesse feito (new FileWriter(path, true)) iria acrescentar os dados
       no final, não recriando o arquvio/gerando um novo*/

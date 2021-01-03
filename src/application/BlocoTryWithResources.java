@@ -11,7 +11,7 @@ public class BlocoTryWithResources {
 
   public static void main(String[] args) {
 
-    String path = "C:\\Users\\Karen_Iago\\Documents\\Iago\\Capacitação\\Java\\course\\nivel-intermediario-java\\in.txt";
+    String path = "C:\\Users\\Karen_Iago\\Documents\\Iago\\Capacitacao\\Java\\course\\nivel-intermediario-java\\in.txt";
     try (BufferedReader br = new BufferedReader(new FileReader(path))) { 
       //pode ser instanciado as streams direto no try, porque agora não precisa mais fechar essas var no final
       String line = br.readLine();
